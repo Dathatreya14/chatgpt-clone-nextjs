@@ -1,0 +1,26 @@
+dimension-chat/
+├─ package.json
+├─ next.config.js
+├─ postcss.config.js
+├─ tailwind.config.js (optional)
+├─ tsconfig.json
+├─ app/
+│  ├─ layout.tsx
+│  ├─ page.tsx                  <-- mobile chat UI
+│  ├─ api/
+│  │  └─ trpc/route.ts          <-- tRPC server entry (App Router route)
+├─ src/
+│  ├─ server/
+│  │  ├─ trpc/
+│  │  │  ├─ context.ts
+│  │  │  ├─ router.ts
+│  │  │  └─ openaiRouter.ts    <-- example LLM wrapper router
+│  ├─ utils/
+│  │  ├─ supabaseClient.ts
+│  │  └─ trpcClient.ts
+│  └─ components/
+│     ├─ ChatInput.tsx
+│     ├─ MessageList.tsx
+│     └─ MobileShell.tsx
+├─ components_bootstrap/        <-- optional shared bootstrap components
+└─ .env.local
