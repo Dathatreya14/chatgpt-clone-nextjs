@@ -22,5 +22,3 @@ dimension-chat/
 │     ├─ ChatInput.tsx
 │     ├─ MessageList.tsx
 │     └─ MobileShell.tsx
-├─ components_bootstrap/        <-- optional shared bootstrap components
-└─ .env.local
